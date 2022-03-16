@@ -38,6 +38,9 @@ body {
   position: relative;
   transition: transform 0.5s linear;
 }
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
 
 .circle button {
   cursor: pointer;
@@ -49,12 +52,6 @@ body {
   border: 0;
   font-size: 26px;
   color: #fff;
-}
-.container.show-nav .circle {
-  transform: rotate(-70deg);
-}
-.container.show-nav .circle {
-  transform: rotate(-70deg);
 }
 
 .circle button:focus {
@@ -102,7 +99,10 @@ nav ul li + li + li {
   margin-left: 30px;
   transform: translateX(-200%);
 }
-
+img {
+  width: 100%;
+  max-width: 1000px;
+}
 .content {
   max-width: 100%;
   margin: 50px auto;
